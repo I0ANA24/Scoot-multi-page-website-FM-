@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.hero {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    background-image: url('./assets/images/home-hero-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    width: 100%;
+    padding-left: 15%;
+}
+
+.hero-design {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 14vw;
+}
+
+.hero-design .first {
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-design .first img {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+.hero-design .second {
+    display: flex;
+    width: 30%;
+    height: max-content;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.hero-design .second .description {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+}
+
+.hero-design .second .get-scootin {
+    top: 50px;
+}
+
+.hero-design .third {
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-design .third img {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+.hero-design .fourth {
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-design .fourth img {
+    width: 100%;
+    position: absolute;
+    bottom: 2vw;
+    left: 15%;
+}
+
+.hero-design .get-scootin:hover {
+    background-color: transparent;
+}
