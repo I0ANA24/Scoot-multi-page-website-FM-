@@ -91,3 +91,55 @@ h1 {
 .hero-design .get-scootin:hover {
     background-color: transparent;
 }
+
+main {
+    margin-top: 15vh;
+    width: 100%;
+}
+
+.section1 {
+    width: 100%;
+}
+
+.hr-icons {
+    width: 70%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 5px solid var(--light-grey);
+    width: 100%;
+}
+
+.hr-icons .icons {
+    position: absolute;
+    padding-left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text {
+    width: 100%;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+    gap: 30px;
+}
+
+.icon-title {
+    color: var(--dark-navy);
+    margin-bottom: 20px;
+}
+
+.icon-description {
+    color: var(--dim-grey);
+    font-size: 15px;
+    line-height: 25px;
+}
