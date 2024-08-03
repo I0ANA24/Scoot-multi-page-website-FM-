@@ -19,6 +19,7 @@
 
 h1, h2, h3, h4 {
     font-weight: bold;
+    color: var(--dark-navy);
 }
 
 h1 {
@@ -86,7 +87,7 @@ nav {
 .get-scootin {
     text-decoration: none;
     display: flex;
-    width: 150px;
+    width: 180px;
     height: 6vh;
     justify-content: center;
     align-items: center;
