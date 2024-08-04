@@ -48,7 +48,7 @@ h4 {
 
 body {
     width: 100vw;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 nav {
@@ -84,7 +84,7 @@ nav {
     color: var(--yellow);
 }
 
-.get-scootin {
+.get-scootin, #learn-more {
     text-decoration: none;
     display: flex;
     width: 180px;
@@ -98,7 +98,7 @@ nav {
     line-height: 25px;
 }
 
-.get-scootin:hover {
+.get-scootin:hover, #learn-more:hover {
     background-color: #ffffff;
     color: var(--yellow);
     border: 2.5px solid var(--yellow);

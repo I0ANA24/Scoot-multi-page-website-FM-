@@ -160,17 +160,47 @@ hr {
 
 .section2 {
     width: 100%;
+    height: max-content;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 10vw;
+    margin-bottom: 15vh;
+}
+
+.left-section-text {
+    width: 35vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.right-section-image {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 #imgs2 {
     border-radius: 50%;
-    position: relative;
-    /* width: 100px; */
+    width: 30vw;
 }
 
-#arrow-s2 {
+#circles2 {
+    width: 30vw;
+    height: 30vw;
     position: absolute;
+    left: 35vw;
+}
+
+#arrows2 {
+    position: absolute;
+    right: -10vw;
+    bottom: 0;
+    width: 50vw;
 }
