@@ -48,7 +48,7 @@ h4 {
 
 body {
     width: 100vw;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 nav {
@@ -102,4 +102,63 @@ nav {
     background-color: #ffffff;
     color: var(--yellow);
     border: 2.5px solid var(--yellow);
+}
+
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+}
+
+.footer-up {
+    background-color: var(--dark-navy);
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-up h2 {
+    color: white;
+}
+
+#semi-circles {
+    width: 100%;
+    position: absolute;
+    right: -12%;
+    bottom: 0;
+}
+
+footer nav{
+    background-color: #333a44;
+}
+
+footer nav #logo {
+    filter: brightness(0) invert(1);
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-down {
+    width: 100%;
+    height: 10vh;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right a:hover {
+    filter: brightness(0) invert(1);
 }
