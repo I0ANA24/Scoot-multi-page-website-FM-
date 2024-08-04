@@ -122,7 +122,7 @@ main {
 }
 
 hr {
-    border: 5px solid var(--light-grey);
+    border: 8px solid var(--light-grey);
     width: 100%;
 }
 
@@ -138,9 +138,9 @@ hr {
     width: 100%;
     padding: 0 10vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 15vh;
-    gap: 30px;
+    gap: 5vw;
 }
 
 .icon-title {
@@ -148,8 +148,29 @@ hr {
     margin-bottom: 20px;
 }
 
+.icon-description {
+    width: calc((60vw - 96px) / 2 - 5vw);
+}
+
 .general-text {
     color: var(--dim-grey);
     font-size: 15px;
     line-height: 25px;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+#imgs2 {
+    border-radius: 50%;
+    position: relative;
+    /* width: 100px; */
+}
+
+#arrow-s2 {
+    position: absolute;
 }
