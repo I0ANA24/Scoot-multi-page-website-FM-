@@ -160,7 +160,7 @@ hr {
     line-height: 25px;
 }
 
-.section2, .section3 {
+.section2, .section3, .section4 {
     width: 100%;
     height: max-content;
     display: flex;
@@ -188,37 +188,43 @@ hr {
     position: relative;
 }
 
-#imgs2, #imgs3 {
+#imgs2, #imgs3, #imgs4 {
     border-radius: 50%;
     width: 30vw;
 }
 
-#circles2 {
+#circles2, #circles3, #circles4 {
     width: 30vw;
     height: 30vw;
     position: absolute;
+}
+
+#circles2, #circles4 {
     left: 33vw;
 }
 
-#arrows2, #arrows3 {
-    position: absolute;
-    right: -10vw;
-    bottom: 0;
-    width: 50vw;
+#circles3 {
+    right: 33vw;
 }
 
-
-#circles3 {
-    width: 30vw;
-    height: 30vw;
+#arrows2, #arrows3, #arrows4 {
     position: absolute;
-    right: 33vw;
-    top: 0;
+}
+
+#arrows2 {
+    width: 50vw;
+    right: -10vw;
+    bottom: 0;
 }
 
 #arrows3 {
     width: 22vw;
-    position: absolute;
     left: -10vw;
     top: 0;
+}
+
+#arrows4 {
+    width: 32vw;
+    right: -23vw;
+    top: 8vw;
 }
