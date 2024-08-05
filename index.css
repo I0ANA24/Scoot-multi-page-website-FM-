@@ -228,3 +228,54 @@ hr {
     right: -23vw;
     top: 8vw;
 }
+
+@media (min-width: 901px) {
+    .tablet-only {
+        display: none;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 900px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .hero.tablet-only {
+        height: 70vh;
+        justify-content: end;
+        gap: 5vh;
+    }
+    
+    .text-hero-tablet-only{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+        text-align: center;
+        padding: 0 10vw;
+    }
+
+    h1.hero-title {
+        padding: 0;
+    }
+
+    .hero.tablet-only .design {
+        margin-bottom: 5vh;
+        height: 20vw;
+        width: 100vw;
+    }
+
+    #hero-line-design {
+        position: absolute;
+        left: -15vw;
+        width: 60vw;
+    }
+
+    #hero-circles-design {
+        position: absolute;
+        right: -4.5vw;
+        width: 30vw;
+        bottom: calc(7vw + 5vh - 5vw);
+    }
+}
