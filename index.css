@@ -350,7 +350,7 @@ hr {
         height: 200px;
     }
 
-    .section2.tablet-only {
+    .section2.tablet-only, .section3.tablet-only {
         display: flex;
         width: 100vw;
         flex-direction: column;
@@ -370,7 +370,7 @@ hr {
         position: relative;
     }
 
-    #top-imgs2 {
+    #top-imgs2, #top-imgs3{
         border-radius: 50%;
         width: 60vw;
     }
@@ -385,7 +385,6 @@ hr {
     #top-arrows2 {
         width: 100vw;
         position: absolute;
-        /* left: 10vw; */
         left: -15vw;
         bottom: -5vw;
     }
@@ -397,5 +396,19 @@ hr {
         justify-content: center;
         align-items: center;
         gap: 3vh;
+    }
+
+    #top-circles3 {
+        width: 60vw;
+        position: absolute;
+        top: 0;
+        left: -65vw;
+    }
+
+    #top-arrows3 {
+        width: 60vw;
+        position: absolute;
+        left: -35vw;
+        top: 0;
     }
 }
