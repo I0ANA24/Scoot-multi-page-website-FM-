@@ -99,7 +99,7 @@ nav {
 }
 
 .get-scootin:hover, #learn-more:hover {
-    background-color: #ffffff;
+    background-color: transparent;
     color: var(--yellow);
     border: 2.5px solid var(--yellow);
 }
@@ -184,5 +184,9 @@ footer nav #logo {
         justify-content: space-between;
         align-items: center;
         column-gap: 15px;
+    }
+
+    #learn-more, .text-hero-tablet-only .get-scootin {
+        width: 180px;
     }
 }
