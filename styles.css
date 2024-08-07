@@ -46,6 +46,12 @@ h4 {
     letter-spacing: -1.07px;
 }
 
+.general-text {
+    color: var(--dim-grey);
+    font-size: 15px;
+    line-height: 25px;
+}
+
 body {
     width: 100vw;
     overflow-x: hidden;
@@ -132,7 +138,7 @@ footer {
     bottom: 0;
 }
 
-footer nav{
+footer nav {
     background-color: #333a44;
 }
 

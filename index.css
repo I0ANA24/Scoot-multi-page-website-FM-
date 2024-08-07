@@ -154,12 +154,6 @@ hr {
     width: calc((60vw - 96px) / 2 - 5vw);
 }
 
-.general-text {
-    color: var(--dim-grey);
-    font-size: 15px;
-    line-height: 25px;
-}
-
 .section2, .section3, .section4 {
     width: 100%;
     height: max-content;
