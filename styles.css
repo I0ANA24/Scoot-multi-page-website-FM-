@@ -189,4 +189,23 @@ footer nav #logo {
     #learn-more, .text-hero-tablet-only .get-scootin {
         width: 180px;
     }
+
+    .footer-up {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    #semi-circles {
+        width: 150%;
+        position: absolute;
+        /* right: -12%; */
+        left: -25%;
+        bottom: 0;
+    }
+
+    nav {
+        padding: 0 5vw;
+    }
 }
