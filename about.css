@@ -209,3 +209,7 @@ main {
 .chevron:hover {
     scale: 1.3;
 }
+
+footer {
+    margin-top: 15vh;
+}
