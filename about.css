@@ -25,5 +25,69 @@ h1 {
 #white-circles {
     position: relative;
     right: calc(-10vw - 33px);
+}
 
+main {
+    width: 100%;
+}
+
+.section1, .section2 {
+    margin-top: 15vh;
+    display: flex;
+    padding: 0 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section-text, .right-section-text {
+    width: 35vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.right-section-image, .left-section-image {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#imgs2, #imgs3 {
+    border-radius: 50%;
+    width: 30vw;
+}
+
+#circles2, #circles3 {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+}
+
+#circles2 {
+    left: 33vw;
+}
+
+#circles3 {
+    right: 33vw;
+}
+
+#arrows2, #arrows3 {
+    position: absolute;
+}
+
+#arrows2 {
+    width: 50vw;
+    right: -11vw;
+    bottom: 2vw;
+}
+
+#arrows3 {
+    width: 25vw;
+    left: -13vw;
+    top: 0;
 }
