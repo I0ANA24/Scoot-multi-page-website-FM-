@@ -169,7 +169,7 @@ footer nav #logo {
     filter: brightness(0) invert(1);
 }
 
-@media (min-width: 525px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1024px) {
     header nav {
         padding: 0 5vw;
     }
