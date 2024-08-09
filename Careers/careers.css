@@ -167,3 +167,7 @@ main {
 #learn-more:hover {
     background-color: var(--yellow);
 }
+
+footer {
+    margin-top: 15vh;
+}
