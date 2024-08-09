@@ -102,6 +102,7 @@ nav {
     font-size: 15px;
     font-weight: bold;
     line-height: 25px;
+    text-align: center;
 }
 
 .get-scootin:hover, #learn-more:hover {

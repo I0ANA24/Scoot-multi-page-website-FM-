@@ -31,7 +31,7 @@ main {
     width: 100%;
 }
 
-.section1 {
+.section1, .section2 {
     margin-top: 15vh;
     display: flex;
     padding: 0 10vw;
@@ -60,6 +60,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
+    text-align: center;
 }
 
 .triangle {
@@ -90,4 +91,22 @@ main {
 #yokohama {
     top: 18%;
     left: 71%;
+}
+
+.section2 {
+    justify-content: space-between;
+    /* gap: 5vw; */
+}
+
+.section2 h2 {
+    width: 305px;
+}
+
+.section2 p {
+    width: calc(100% - 305px - 160px - 60px);
+    max-width: 500px;
+}
+
+.section2 .get-scootin {
+    width: 160px;
 }
