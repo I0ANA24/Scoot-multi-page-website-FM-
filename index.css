@@ -238,6 +238,7 @@ hr {
         height: 70vh;
         justify-content: end;
         gap: 5vh;
+        background-image: url('assets/images/home-hero-tablet.jpg');
     }
     
     .text-hero-tablet-only{
