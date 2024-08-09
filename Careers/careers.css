@@ -31,7 +31,7 @@ main {
     width: 100%;
 }
 
-.section2, .section3 {
+.section2, .section3, .third-section {
     width: 100%;
     height: max-content;
     display: flex;
@@ -132,4 +132,38 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2vh;
+}
+
+.third-section {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.job-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F2F5F9;
+    padding: 36px;
+}
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.job-location {
+    color: var(--dark-navy);
+}
+
+#learn-more {
+    height: 50px;
+}
+
+#learn-more:hover {
+    background-color: var(--yellow);
 }
