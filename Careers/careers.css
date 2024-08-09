@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 20vh;
+    background-image: url('../assets/images/careers-locations-hero-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+h1 {
+    color: white;
+}
+
+#white-circles {
+    position: relative;
+    right: calc(-10vw - 33px);
+}
+
+main {
+    width: 100%;
+}
