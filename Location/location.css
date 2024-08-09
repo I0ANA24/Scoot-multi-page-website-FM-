@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    height: 20vh;
+    background-image: url('../assets/images/about-hero-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+h1 {
+    color: white;
+}
+
+#white-circles {
+    position: relative;
+    right: calc(-10vw - 33px);
+}
+
+main {
+    width: 100%;
+}
+
+.section1 {
+    margin-top: 15vh;
+    display: flex;
+    padding: 0 10vw;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.section1 img {
+    width: 100%;
+}
+
+.tooltip {
+    width: 15%;
+    height: 13%;
+    position: absolute;
+    top: 0;
+}
+
+.label {
+    width: 100%;
+    height: 80%;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    translate: -50% 0;
+    border-left: 1.1vw solid transparent;
+    border-right: 1.1vw solid transparent;
+    border-top: 1.1vw solid var(--yellow);
+}
+
+#new-york {
+    top: 14.5%;
+    left: 20.7%;
+}
+
+#london {
+    top: 6%;
+    left: 37.8%;
+}
+
+#jakarta {
+    top: 49%;
+    left: 65.2%;
+}
+
+#yokohama {
+    top: 18%;
+    left: 71%;
+}
