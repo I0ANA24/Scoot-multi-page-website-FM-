@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 5%;
-    background-image: url('../assets/images/home-hero-desktop.jpg');
+    background-image: url('assets/images/home-hero-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
