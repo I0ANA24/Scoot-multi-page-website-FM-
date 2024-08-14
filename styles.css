@@ -173,7 +173,7 @@ footer nav #logo {
     header nav {
         padding: 0 5vw;
     }
-
+    
     .get-scootin, #learn-more {
         width: 120px;
         height: 50px;
@@ -196,11 +196,16 @@ footer nav #logo {
         width: 180px;
     }
 
+    footer {
+        height: 50vh;
+    }
+
     .footer-up {
         flex-direction: column;
         justify-content: center;
         text-align: center;
         gap: 30px;
+        height: 40vh;
     }
 
     #semi-circles {

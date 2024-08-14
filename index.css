@@ -235,7 +235,7 @@ hr {
     }
 
     .hero.tablet-only {
-        height: 70vh;
+        height: calc(70vh + 20vw);
         justify-content: end;
         gap: 5vh;
         background-image: url('assets/images/home-hero-tablet.jpg');
@@ -248,7 +248,7 @@ hr {
         justify-content: center;
         gap: 2vh;
         text-align: center;
-        padding: 0 10vw;
+        padding: 10vw;
     }
 
     h1.hero-title {
