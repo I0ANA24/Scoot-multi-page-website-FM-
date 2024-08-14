@@ -255,6 +255,10 @@ hr {
         padding: 0;
     }
 
+    a.get-scootin {
+        height: 45px;
+    }
+
     .hero.tablet-only .design {
         margin-bottom: 5vh;
         height: 20vw;
@@ -349,6 +353,7 @@ hr {
         justify-content: center;
         align-items: center;
         position: relative;
+        margin-bottom: 50px;
     }
 
     #top-imgs2, #top-imgs3, #top-imgs4 {

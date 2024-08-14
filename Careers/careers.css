@@ -171,3 +171,113 @@ main {
 footer {
     margin-top: 15vh;
 }
+
+@media (min-width: 1025px) {
+    .tablet-only {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .tablet-only {
+        display: block;
+    }
+
+    .hero.tablet-only {
+        position: relative;
+    }
+
+    .tablet-only #white-circles {
+        position: absolute;
+        left: 100%;
+        width: max-content;
+        top: 50%;
+        translate: -90% -45%;
+    }
+
+    .tablet-only #white-circles img {
+        width: 25vw;
+    }
+
+    .tablet-only #hero-title {
+        width: max-content;
+        position: absolute;
+        left: 10vw;
+        top: 50%;
+        translate: 0 -50%;
+        font-size: 3.5rem;
+    }
+
+    .section2.tablet-only {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        padding: 0 10vw;
+        gap: 5vh;
+    }
+
+    .top-section {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    #top-imgs2 {
+        border-radius: 50%;
+        width: 60vw;
+    }
+
+    #top-circles2 {
+        width: 60vw;
+        position: absolute;
+        top: 0;
+        right: -65vw;
+    }
+
+    #top-arrows2 {
+        width: 100vw;
+        position: absolute;
+        left: -15vw;
+        bottom: -5vw;
+    }
+
+    .bottom-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .section3 h2 {
+        text-align: center;
+    }
+
+    .section3-sections-wrapper {
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        gap: 5vh;
+    }
+
+    .section31, .section32, .section33 {
+        width: 80vw;
+        gap: 10vh;
+    }
+
+}
