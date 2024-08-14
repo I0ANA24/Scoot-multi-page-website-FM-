@@ -236,11 +236,11 @@ footer {
         left: 100%;
         width: max-content;
         top: 50%;
-        translate: -85% -45%;
+        translate: -90% -45%;
     }
 
     .tablet-only #white-circles img {
-        width: 32vw;
+        width: 25vw;
     }
 
     .tablet-only #hero-title {
@@ -249,6 +249,7 @@ footer {
         left: 10vw;
         top: 50%;
         translate: 0 -50%;
+        font-size: 3.5rem;
     }
 
     .section1.tablet-only, .section2.tablet-only, .section3.tablet-only, .section3-sections-wrapper, .section4.tablet-only {
