@@ -173,6 +173,10 @@ footer nav #logo {
     header nav {
         padding: 0 5vw;
     }
+
+    a.get-scootin {
+        height: 65%;
+    }
     
     .get-scootin, #learn-more {
         width: 120px;
