@@ -528,7 +528,7 @@ hr {
     #hero-line-design {
         position: absolute;
         bottom: 5vh;
-        z-index: 3;
+        z-index: 0;
         right: 66vw;
     }
 }
