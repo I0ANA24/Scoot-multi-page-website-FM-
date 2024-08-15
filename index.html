@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="desktop-tablet-only">
         <nav>
             <div class="nav-left">
                 <a href="index.html"><img src="assets/logo.svg" alt="logo"></a>
@@ -20,6 +20,63 @@
                 <a href="Careers/careers.html" class="nav-careers">Careers</a>
             </div>
             <a href="" target="_self" class="get-scootin">Get Scootin</a>
+        </nav>
+        <div class="hero desktop-only">
+            <h1 class="hero-title">Scooter sharing <br> made simple</h1>
+            <div class="hero-design-wrapper">
+                <div class="hero-design">
+                    <div class="first">
+                        <img src="assets/patterns/line.svg" alt="line design">
+                    </div>
+                    <div class="second">
+                        <div class="description">
+                            Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations
+                            in
+                            each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re
+                            away!
+                        </div>
+                        <a href="" target="_self" class="get-scootin">Get Scootin</a>
+                    </div>
+                    <div class="third">
+                        <img src="assets/patterns/right-arrow.svg" alt="line design">
+                    </div>
+                    <div class="fourth">
+                        <img src="assets/patterns/white-circles.svg" alt="circles design">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero tablet-only">
+            <div class="text-hero-tablet-only">
+                <h1 class="hero-title">Scooter sharing <br> made simple</h1>
+                <div class="description">
+                    Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in
+                    each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re
+                    away!
+                </div>
+                <a href="" target="_self" class="get-scootin">Get Scootin</a>
+            </div>
+            <div class="design">
+                <img src="assets/patterns/right-arrow.svg" alt="line design" id="hero-line-design">
+                <img src="assets/patterns/white-circles.svg" alt="circles design" id="hero-circles-design">
+            </div>
+        </div>
+    </header>
+
+    <header class="mobile-only">
+        <nav>
+            <img src="./assets/icons/hamburger.svg" alt="menu" id="hamburger">
+            <img src="./assets/icons/close.svg" alt="menu" id="close">
+            <a href="index.html"><img src="assets/logo.svg" alt="logo"></a>
+            <div class="menu">
+                <div class="menu-top">
+                    <a href="About/about.html" class="nav-about">About</a>
+                    <a href="Location/location.html" class="nav-location">Location</a>
+                    <a href="Careers/careers.html" class="nav-careers">Careers</a>
+                </div>
+                <a href="" target="_self" class="get-scootin">Get Scootin</a>
+            </div>
         </nav>
         <div class="hero desktop-only">
             <h1 class="hero-title">Scooter sharing <br> made simple</h1>
@@ -255,6 +312,8 @@
             </nav>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
