@@ -483,7 +483,7 @@ hr {
         background-color: #333a44;
         height: 90vh;
         width: 70vw;
-        padding: 5vh 5vh 10vh 5vh;
+        padding: 5vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
