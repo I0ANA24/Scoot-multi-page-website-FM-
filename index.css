@@ -564,7 +564,7 @@ hr {
         text-align: center;
     }
 
-    .section2.mobile-only, .section3.mobile-only {
+    .section2.mobile-only, .section3.mobile-only, .section4.mobile-only {
         display: flex;
         width: 100vw;
         flex-direction: column;
@@ -587,7 +587,7 @@ hr {
 
     #top-imgs2, #top-imgs3, #top-imgs4 {
         border-radius: 50%;
-        width: 85vw;
+        width: 80vw;
     }
 
     #top-arrows2 {
@@ -618,4 +618,10 @@ hr {
         top: 0;
     }
 
+    #top-arrows4 {
+        width: 180vw;
+        position: absolute;
+        top: 0;
+        left: 16vw;
+    }
 }
