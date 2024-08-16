@@ -38,7 +38,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* height: calc(14vw + 50px); */
 }
 
 .hero-design .first {
@@ -439,13 +438,17 @@ hr {
         width: 100vw;
     }
 
-    header.mobile-only > * {
+    header.mobile-only > *, nav.mobile-only {
         padding: 0 5vw;
     }
 
-    header.mobile-only nav {
-        position: relative;
+    nav.mobile-only {
+        position: sticky;
+        top: 0;
+        left: 0;
         height: 10vh;
+        z-index: 3;
+        padding: 0 5vw;
     }
 
     #hamburger {
@@ -456,14 +459,14 @@ hr {
         display: none;
     }
 
-    header.mobile-only nav a img {
+    nav.mobile-only a img {
         position: absolute;
         top: 50%;
         left: 50%;
         translate: -50% -50%;
     }
 
-    header.mobile-only nav .menu {
+    nav.mobile-only .menu {
         position: absolute;
         top: 10vh;
         left: 0;
@@ -479,23 +482,23 @@ hr {
         z-index: 1;
     }
 
-    header.mobile-only nav .menu-top {
+    nav.mobile-only .menu-top {
         display: flex;
         flex-direction: column;
         gap: 3vh;
     }
 
-    header.mobile-only nav .menu a {
+    nav.mobile-only .menu a {
         text-decoration: none;
         color: var(--light-grey);
         font-size: 1.5rem;
     }
 
-    header.mobile-only nav .menu a:hover {
+    nav.mobile-only .menu a:hover {
         color: var(--yellow);
     }
 
-    header.mobile-only nav .menu .get-scootin {
+    nav.mobile-only .menu .get-scootin {
         width: 100%;
         height: 60px;
     }
@@ -522,13 +525,12 @@ hr {
         font-size: 3rem;
     }
 
-    header.mobile-only .hero.mobile-only .get-scootin {
-    }
-
     #hero-line-design {
         position: absolute;
         bottom: 5vh;
         z-index: 0;
         right: 66vw;
     }
+
+
 }
