@@ -5,6 +5,10 @@
     font-family: 'Space Mono', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .hero {
     display: flex;
     width: 100vw;
