@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="desktop-tablet-only">
         <nav>
             <div class="nav-left">
                 <a href="../index.html"><img src="../assets/logo.svg" alt="logo"></a>
@@ -33,6 +33,21 @@
             </div>
         </div>
     </header>
+
+    <nav class="mobile-only">
+        <img src="../assets/icons/hamburger.svg" alt="menu" id="hamburger">
+        <img src="../assets/icons/close.svg" alt="menu" id="close">
+        <a href="../index.html"><img src="../assets/logo.svg" alt="logo"></a>
+        <div class="menu">
+            <div class="menu-top">
+                <a href="../About/about.html" class="nav-about">About</a>
+                <a href="../Location/location.html" class="nav-location">Location</a>
+                <a href="../Careers/careers.html" class="nav-careers">Careers</a>
+            </div>
+            <a href="" target="_self" class="get-scootin">Get Scootin</a>
+        </div>
+    </nav>
+
     <main>
         <section class="section1 desktop-only">
             <div class="left-section-text">
@@ -277,8 +292,8 @@
     <footer>
         <div class="footer-up">
             <img src="../assets/patterns/semi-circles.svg" alt="semi-circles design" id="semi-circles">
-            <h2>Sign up and <br> Scoot off today</h2>
-            <div class="apps">
+            <h2 class="desktop-tablet-only">Sign up and <br> Scoot off today</h2>
+            <h2 class="mobile-only">Sign up and Scoot <br> off today</h2>            <div class="apps">
                 <a href="https://www.apple.com/app-store/" target="_blank">
                     <img src="../assets/icons/app-store.svg" alt="app store icon and link">
                 </a>
@@ -311,6 +326,7 @@
     </footer>
 
     <script src="about.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>

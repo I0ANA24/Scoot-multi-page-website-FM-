@@ -57,6 +57,10 @@ body {
     overflow-x: hidden;
 }
 
+body > * {
+    overflow-x: hidden;
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -239,7 +243,7 @@ footer nav #logo {
     }
 
     header.mobile-only {
-        height: 85vh;
+        height: 90vh;
         width: 100vw;
     }
 
@@ -272,19 +276,19 @@ footer nav #logo {
     }
 
     nav.mobile-only .menu {
-        position: absolute;
+        position: fixed;
         top: 10vh;
         left: 0;
         background-color: #333a44;
-        height: 85vh;
+        height: 90vh;
         width: 70vw;
-        padding: 5vh;
+        padding: 5vh 5vh 10vh 5vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         display: none;
-        z-index: 1;
+        z-index: 1000;
     }
 
     nav.mobile-only .menu-top {
@@ -329,7 +333,7 @@ footer nav #logo {
 
     footer h2.mobile-only {
         display: block;
-        font-size: 2rem;
+        font-size: 2.3rem;
         text-align: center;
         line-height: 2.3rem;
     }
