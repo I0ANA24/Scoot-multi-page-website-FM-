@@ -444,7 +444,7 @@ hr {
     }
 
     header.mobile-only {
-        height: 85vh;
+        height: 90vh;
         width: 100vw;
     }
 
@@ -481,9 +481,9 @@ hr {
         top: 10vh;
         left: 0;
         background-color: #333a44;
-        height: 85vh;
+        height: 90vh;
         width: 70vw;
-        padding: 5vh;
+        padding: 5vh 5vh 10vh 5vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -513,7 +513,7 @@ hr {
     }
 
     header.mobile-only .hero.mobile-only {
-        height: 85vh;
+        height: 90vh;
         position: relative;
         display: flex;
         justify-content: center;
