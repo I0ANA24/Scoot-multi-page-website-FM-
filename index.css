@@ -477,7 +477,7 @@ hr {
     }
 
     nav.mobile-only .menu {
-        position: absolute;
+        position: fixed;
         top: 10vh;
         left: 0;
         background-color: #333a44;
@@ -489,7 +489,6 @@ hr {
         justify-content: space-between;
         align-items: flex-start;
         display: none;
-        z-index: 1;
     }
 
     nav.mobile-only .menu-top {
