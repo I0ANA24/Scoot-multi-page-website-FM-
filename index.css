@@ -510,7 +510,7 @@ hr {
         justify-content: center;
         text-align: center;
         gap: 20vh;
-        background: url("/assets/images/home-hero-mobile.jpg");
+        background: url("./assets/images/home-hero-mobile.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
