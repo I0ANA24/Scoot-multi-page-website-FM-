@@ -510,6 +510,10 @@ hr {
         justify-content: center;
         text-align: center;
         gap: 20vh;
+        background: url("/assets/images/home-hero-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 
     header.mobile-only .hero.mobile-only .text-hero-tablet-only {
@@ -560,7 +564,7 @@ hr {
         text-align: center;
     }
 
-    .section2.mobile-only {
+    .section2.mobile-only, .section3.mobile-only {
         display: flex;
         width: 100vw;
         flex-direction: column;
@@ -586,10 +590,6 @@ hr {
         width: 85vw;
     }
 
-    #top-circles2 {
-        display: none;
-    }
-
     #top-arrows2 {
         width: 200vw;
         position: absolute;
@@ -610,4 +610,12 @@ hr {
         font-size: 2.2rem;
         line-height: 2.4rem;
     }
+
+    #top-arrows3 {
+        width: 85vw;
+        position: absolute;
+        left: -38vw;
+        top: 0;
+    }
+
 }
