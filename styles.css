@@ -327,11 +327,7 @@ footer nav #logo {
         right: -60vw;
     }
 
-    footer h2 {
-        display: none;
-    }
-
-    footer h2#mobile-only {
+    footer h2.mobile-only {
         display: block;
         font-size: 2rem;
         text-align: center;
@@ -363,7 +359,6 @@ footer nav #logo {
     .footer-down nav .nav-left {
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
         align-items: center;
         gap: 0;
         text-align: center;
