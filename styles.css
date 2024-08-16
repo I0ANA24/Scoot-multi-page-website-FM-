@@ -224,3 +224,158 @@ footer nav #logo {
         padding: 0 5vw;
     }
 }
+
+@media (max-width: 600px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .tablet-only {
+        display: none;
+    }
+
+    .desktop-tablet-only {
+        display: none;
+    }
+
+    header.mobile-only {
+        height: 85vh;
+        width: 100vw;
+    }
+
+    header.mobile-only > *, nav.mobile-only {
+        padding: 0 5vw;
+    }
+
+    nav.mobile-only {
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 10vh;
+        z-index: 3;
+        padding: 0 5vw;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #close {
+        display: none;
+    }
+
+    nav.mobile-only a img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+
+    nav.mobile-only .menu {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        background-color: #333a44;
+        height: 85vh;
+        width: 70vw;
+        padding: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: none;
+        z-index: 1;
+    }
+
+    nav.mobile-only .menu-top {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    nav.mobile-only .menu a {
+        text-decoration: none;
+        color: var(--light-grey);
+        font-size: 1.5rem;
+    }
+
+    nav.mobile-only .menu a:hover {
+        color: var(--yellow);
+    }
+
+    nav.mobile-only .menu .get-scootin {
+        width: 100%;
+        height: 60px;
+    }
+
+    footer {
+        height: 90vh;
+    }
+
+    .footer-up {
+        height: 35vh;
+        padding: 5vh 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .footer-up img#semi-circles {
+        width: 340vw;
+        right: -60vw;
+    }
+
+    footer h2 {
+        display: none;
+    }
+
+    footer h2#mobile-only {
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 2.3rem;
+    }
+
+    .apps {
+        width: 70vw;
+    }
+
+    .apps img {
+        width: 100%;
+    }
+
+    .footer-down {
+        height: 55vh;
+    }
+
+    .footer-down nav {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        padding: 5vh 5vw;
+    }
+
+    .footer-down nav .nav-left {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+        gap: 0;
+        text-align: center;
+        height: 25vh;
+    }
+
+    #logo {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .footer-down nav .nav-right {
+        height: 5vh;
+    }
+}
