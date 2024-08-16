@@ -10,6 +10,10 @@ body {
     overflow-x: hidden;
 }
 
+body > * {
+    overflow-x: hidden;
+}
+
 .hero {
     display: flex;
     width: 100vw;
@@ -207,6 +211,7 @@ hr {
 
 #arrows2, #arrows3, #arrows4 {
     position: absolute;
+    overflow-x: hidden;
 }
 
 #arrows2 {
