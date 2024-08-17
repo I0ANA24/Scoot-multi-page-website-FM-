@@ -314,4 +314,50 @@ footer {
         padding: 0;
     }
 
+    .section2.mobile-only {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        padding: 0 5vw;
+        gap: 3vh;
+    }
+
+    .top-section {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 2vh;
+    }
+
+    #top-imgs2 {
+        border-radius: 50%;
+        width: 80vw;
+    }
+
+    #top-arrows2 {
+        width: 190vw;
+        position: absolute;
+        left: -15vw;
+        bottom: 0;
+    }
+
+    .bottom-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .bottom-section h2 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
 }
