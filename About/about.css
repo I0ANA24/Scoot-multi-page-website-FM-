@@ -451,4 +451,32 @@ footer {
     .section3-sections-wrapper > * {
         width: 100%;
     }
+
+    .section4.mobile-only {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+    
+    .section4.mobile-only h2 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .section4.mobile-only > *, .section4.mobile-only > * > *  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4.mobile-only > *:not(h2) {
+        gap: 3vh;
+    }
+
+    .section4.mobile-only h3 {
+        font-size: 2.4rem;
+    }
 }
