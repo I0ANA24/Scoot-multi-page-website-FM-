@@ -118,10 +118,12 @@ footer {
     margin-top: 15vh;
 }
 
-@media (min-width: 1025px) {
-    .tablet-only {
-        display: none;
-    }
+.tablet-only {
+    display: none;
+}
+
+.mobile-only {
+    display: none;
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -131,6 +133,14 @@ footer {
 
     .tablet-only {
         display: block;
+    }
+
+    .desktop-tablet-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
     }
 
     .hero.tablet-only {
@@ -180,4 +190,39 @@ footer {
         width: 150px !important;
         height: 45px;
     }
+}
+
+@media (max-width: 600px) {
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only, .desktop-tablet-only {
+        display: none;
+    }
+
+    header.mobile-only {
+        background: url('../assets/images/careers-location-hero-mobile.jpg');
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header.mobile-only #hero-title {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .section1.mobile-only {
+        display: flex;
+        margin-top: 10vh;
+        padding: 0 5vw;
+    }
+
+    .section1.mobile-only .tooltip {
+        display: none;
+    }
+
 }
