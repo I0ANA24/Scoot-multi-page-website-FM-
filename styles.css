@@ -257,11 +257,14 @@ footer nav #logo {
         left: 0;
         height: 10vh;
         z-index: 3;
-        padding: 0 5vw;
+        padding: 5vw;
     }
 
     #hamburger {
         display: block;
+        position: absolute;
+        top: 50%;
+        translate: 0 -50%;
     }
 
     #close {

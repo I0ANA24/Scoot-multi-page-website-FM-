@@ -218,6 +218,10 @@ footer {
     display: none;
 }
 
+.mobile-only {
+    display: none;
+}
+
 @media (min-width: 601px) and (max-width: 1024px) {
     .desktop-only {
         display: none;
@@ -225,6 +229,14 @@ footer {
 
     .tablet-only {
         display: block;
+    }
+
+    .desktop-tablet-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
     }
 
     .hero.tablet-only {
@@ -337,4 +349,26 @@ footer {
         margin-top: 2vh;
         text-align: center;
     }
+}
+
+@media (max-width: 600px) {
+    .mobile-only {
+        display: block;
+    }
+
+    header.mobile-only {
+        background: url('../assets/images/about-hero-mobile.jpg');
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header.mobile-only #hero-title {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    
 }
