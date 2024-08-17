@@ -165,7 +165,8 @@ main {
 }
 
 #learn-more:hover {
-    background-color: var(--yellow);
+    color: var(--yellow);
+    background-color: transparent;
 }
 
 footer {
@@ -382,6 +383,24 @@ footer {
     }
 
     .section3-sections-wrapper > * {
+        width: 100%;
+    }
+
+    .third-section {
+        padding: 0 5vw;
+    }
+
+    .job-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .job-info > * {
+        width: 100%;
+        text-align: center;
+    }
+
+    .job-item #learn-more {
         width: 100%;
     }
 }
