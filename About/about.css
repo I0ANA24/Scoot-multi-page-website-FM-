@@ -432,11 +432,11 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 7vh;
+        gap: 5vh;
     }
 
     .section3.mobile-only h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .section3-sections-wrapper {
@@ -456,15 +456,15 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5vh;
+        gap: 3vh;
     }
     
     .section4.mobile-only h2 {
         text-align: center;
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
-    .section4.mobile-only > *, .section4.mobile-only > * > *  {
+    .section4.mobile-only > *, .section4.mobile-only > * > * {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -473,10 +473,14 @@ footer {
     }
 
     .section4.mobile-only > *:not(h2) {
-        gap: 3vh;
+        gap: 2vh;
     }
 
     .section4.mobile-only h3 {
-        font-size: 2.4rem;
+        font-size: 2rem;
+    }
+
+    .section4.mobile-only > * .question{
+        font-size: 1.3rem;
     }
 }
