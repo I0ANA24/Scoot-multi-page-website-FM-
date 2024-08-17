@@ -360,4 +360,28 @@ footer {
         font-size: 2.2rem;
         line-height: 2.4rem;
     }
+
+    .section3.mobile-only {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .section3.mobile-only h2 {
+        font-size: 2.5rem;
+    }
+
+    .section3-sections-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 8vh;
+    }
+
+    .section3-sections-wrapper > * {
+        width: 100%;
+    }
 }
