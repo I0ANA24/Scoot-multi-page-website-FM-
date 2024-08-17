@@ -374,7 +374,7 @@ footer {
         padding: 0;
     }
 
-    .section1.mobile-only {
+    .section1.mobile-only, .section2.mobile-only {
         display: flex;
         width: 100vw;
         flex-direction: column;
@@ -419,5 +419,12 @@ footer {
     .bottom-section h2 {
         font-size: 2.2rem;
         line-height: 2.4rem;
+    }
+
+    #top-arrows3 {
+        position: absolute;
+        width: 115vw;
+        right: -12vw;
+        top: -2vw;
     }
 }
