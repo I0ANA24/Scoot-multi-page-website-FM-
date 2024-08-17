@@ -217,12 +217,35 @@ footer {
 
     .section1.mobile-only {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 10vh;
         padding: 0 5vw;
+        gap: 5vh;
     }
 
     .section1.mobile-only .tooltip {
         display: none;
     }
 
+    .section1.mobile-only ul {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section1.mobile-only ul li {
+        width: calc(100% - 10vw);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fcb62a33;
+        height: 70px;
+        rem;
+    }
 }
