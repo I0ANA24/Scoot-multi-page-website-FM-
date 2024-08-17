@@ -269,6 +269,9 @@ footer nav #logo {
 
     #close {
         display: none;
+        position: absolute;
+        top: 50%;
+        translate: 0 -50%;
     }
 
     nav.mobile-only a img {
