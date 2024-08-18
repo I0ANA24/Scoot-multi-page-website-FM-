@@ -44,12 +44,12 @@ document.addEventListener('touchmove', function(e) {
 document.addEventListener('touchend', function(e) {
     let deltaX = endX - startX;
 
-    if (deltaX > 50) { // swipe dreapta
+    if (deltaX > 100) { // swipe dreapta
         hamburger.style.display = "none";
         close.style.display = "block";
         menu.style.display = "flex";
         document.body.style.overflow = "hidden";
-    } else if (deltaX < -50) { // swipe stânga
+    } else if (deltaX < -100) { // swipe stânga
         close.style.display = "none";
         hamburger.style.display = "block";
         menu.style.display = "none";
